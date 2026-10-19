@@ -1,5 +1,6 @@
 import logoImage from '../assets/brand/plenno-capital.png';
 import symbolImage from '../assets/brand/plenno-symbol-gold.png';
+import { Reveal } from './Reveal.jsx';
 
 export function BrandMark() {
   return (
@@ -25,10 +26,10 @@ export function CTAButton({ children, href = '#contato', variant = 'primary' }) 
 
 export function SectionHeading({ eyebrow, title, text }) {
   return (
-    <div className="section-heading">
+    <Reveal className="section-heading">
       <p className="eyebrow">{eyebrow}</p>
       <h2>{title}</h2>
       {text && <p>{text}</p>}
-    </div>
+    </Reveal>
   );
 }

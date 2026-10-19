@@ -1,0 +1,84 @@
+{
+  "layouts": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "overflow": false
+    }
+  ],
+  "reducedMotion": "passed",
+  "counters": {
+    "intermediate": [
+      "+R$ 1,1 bi",
+      "+3.031",
+      "+9 anos",
+      "46%"
+    ],
+    "final": [
+      "+R$ 2,3 bi",
+      "+6.500",
+      "+20 anos",
+      "98%"
+    ]
+  },
+  "bars": {
+    "intermediate": [
+      "matrix(0.776421, 0, 0, 1, 0, 0)",
+      "matrix(0.597497, 0, 0, 1, 0, 0)",
+      "matrix(0.314816, 0, 0, 1, 0, 0)"
+    ],
+    "final": [
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "width": 0.6399529411764705
+      },
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "width": 0.8199764705882353
+      },
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "width": 0.47996470588235296
+      }
+    ]
+  },
+  "menu": "keyboard, Escape, link close passed",
+  "faq": "keyboard open and close passed",
+  "contacts": "passed",
+  "consoleErrors": []
+}

@@ -9,11 +9,16 @@ export const navigation = [
 ];
 
 export const metrics = [
-  { value: '+R$ 2,3 bi', label: 'em crédito gerado' },
-  { value: '+6.500', label: 'membros ativos' },
-  { value: '+20 anos', label: 'de experiência' },
-  { value: '98%', label: 'índice de satisfação' },
+  { value: '+R$ 2,3 bi', amount: 2.3, prefix: '+R$ ', suffix: ' bi', decimals: 1, label: 'em crédito gerado' },
+  { value: '+6.500', amount: 6500, prefix: '+', label: 'membros ativos' },
+  { value: '+20 anos', amount: 20, prefix: '+', suffix: ' anos', label: 'de experiência' },
+  { value: '98%', amount: 98, suffix: '%', label: 'índice de satisfação' },
 ];
+
+export const contact = {
+  email: 'administrativo@plennocapital.com',
+  whatsapp: '556283045044',
+};
 
 export const strategies = [
   {
