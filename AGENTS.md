@@ -289,9 +289,9 @@ Texto-base:
 
 ### Métricas temporárias
 
-- +R$ 2,3 bi em crédito gerado
+- R$ 40 milhões em crédito gerado
 - +6.500 membros ativos
-- +20 anos de experiência
+- 1 ano de história
 - 98% índice de satisfação
 
 Esses números são placeholders e devem permanecer fáceis de editar.

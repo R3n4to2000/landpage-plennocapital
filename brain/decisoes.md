@@ -10,3 +10,4 @@
 - Respeitar prefers-reduced-motion em CSS e JavaScript, inclusive quando a preferencia muda durante a sessao; exibir valores finais imediatamente.
 - Em telas de ate 1080px, usar menu compacto com aria-expanded, Escape, fechamento por link, clique externo e saida do foco.
 - Usar administrativo@plennocapital.com com mailto e WhatsApp https://wa.me/556283045044 no CTA final. Preservar o numero 6283045044 informado, acrescentando somente o codigo de pais 55.
+- Em 2026-11-09, exibir R$ 40 milhões em crédito gerado e 1 ano de história na hero, conforme os valores informados pelo usuário; manter as métricas centralizadas em `src/data/content.js`.

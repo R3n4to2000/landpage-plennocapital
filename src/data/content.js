@@ -9,9 +9,9 @@ export const navigation = [
 ];
 
 export const metrics = [
-  { value: '+R$ 2,3 bi', amount: 2.3, prefix: '+R$ ', suffix: ' bi', decimals: 1, label: 'em crédito gerado' },
+  { value: 'R$ 40 milhões', amount: 40, prefix: 'R$ ', suffix: ' milhões', label: 'em crédito gerado' },
   { value: '+6.500', amount: 6500, prefix: '+', label: 'membros ativos' },
-  { value: '+20 anos', amount: 20, prefix: '+', suffix: ' anos', label: 'de experiência' },
+  { value: '1 ano', amount: 1, suffix: ' ano', label: 'de história' },
   { value: '98%', amount: 98, suffix: '%', label: 'índice de satisfação' },
 ];
 

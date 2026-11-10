@@ -877,6 +877,10 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
     font-size:clamp(1.4rem,6.2vw,2.55rem)
   }
 
+  .metric-item:first-child strong {
+    font-size:clamp(1rem,4.7vw,2.55rem)
+  }
+
   .metrics {
     grid-template-columns:repeat(2,1fr);
     gap:18px;

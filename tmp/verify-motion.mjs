@@ -60,7 +60,7 @@ async function key(key, code, virtualKey) {
   await cdp('Input.dispatchKeyEvent', { type: 'keyDown', key, code, windowsVirtualKeyCode: virtualKey, ...(key === 'Enter' ? { text: '\r' } : {}) });
   await cdp('Input.dispatchKeyEvent', { type: 'keyUp', key, code, windowsVirtualKeyCode: virtualKey });
 }
-const expected = ['+R$ 2,3 bi', '+6.500', '+20 anos', '98%'];
+const expected = ['R$ 40 milhões', '+6.500', '1 ano', '98%'];
 const counters = "[...document.querySelectorAll('.counter-value')].map(n=>n.textContent)";
 try {
   await cdp('Page.enable');
@@ -121,14 +121,14 @@ try {
   await viewport(360, 640);
   await load();
   await delay(200);
-  assert.deepEqual(await evaluate(counters), ['+R$ 0,0 bi', '+0', '+0 anos', '0%']);
+  assert.deepEqual(await evaluate(counters), ['R$ 0 milhões', '+0', '0 ano', '0%']);
   const hiddenBars = await evaluate("[...document.querySelectorAll('.comparison-bars span')].map(el=>getComputedStyle(el,'::after').transform)");
   assert(hiddenBars.every(value=>value==='matrix(0, 0, 0, 1, 0, 0)'));
   await evaluate("document.querySelector('.metrics').scrollIntoView({behavior:'instant',block:'center'})");
   await delay(300);
   const intermediateCounters = await evaluate(counters);
   assert.notDeepEqual(intermediateCounters, expected);
-  assert.notDeepEqual(intermediateCounters, ['+R$ 0,0 bi', '+0', '+0 anos', '0%']);
+  assert.notDeepEqual(intermediateCounters, ['R$ 0 milhões', '+0', '0 ano', '0%']);
   await delay(1500);
   assert.deepEqual(await evaluate(counters), expected);
   await evaluate("document.querySelector('.comparison-bars').scrollIntoView({behavior:'instant',block:'center'})");
